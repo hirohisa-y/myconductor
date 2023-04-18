@@ -21,10 +21,10 @@ use App\Http\Controllers\Admin\MusicianController;
 Route::controller(MusicianController::class)->prefix('admin')->name('admin.')->middleware('auth')->
 group(function() {
     Route::get('musician','index')->name('musician.index');
-    Route::get('musician/{id}','show')->name('musician.show');
+    Route::get('musician/{id}','show')->name('musician.show')->whereNumber('id');
     Route::get('musician/create', 'add')->name('musician.add');
     Route::post('musician/create', 'create')->name('musician.create');
-    Route::get('musician/{id}/edit','edit')->name('musician.edit');
+    Route::get('musician/{id}/edit','edit')->name('musician.edit')->whereNumber('id');
     Route::post('musician/update', 'update')->name('musician.update');
 });
 

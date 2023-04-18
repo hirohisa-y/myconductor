@@ -65,7 +65,6 @@ class MusicianController extends Controller
     
     public function show($id)
     {
-       
         $post = Musician::find($id);
         
         return view('admin.musician.show', ['post' => $post]);
