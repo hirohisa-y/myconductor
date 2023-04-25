@@ -40,23 +40,33 @@
                             </tr>
                             <tr>
                                 <td width="10%">URL1</td>
-                                <td width="20%">{{$post->url1}}</td>
+                                <td width="20%">
+                                     <iframe width="560" height="315" src="{{$post->url1}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </td>
                             </tr>
                             <tr>
                                 <td width="10%">URL2</td>
-                                <td width="20%">{{$post->url2}}</td>
+                                <td width="20%">
+                                    <iframe width="560" height="315" src="{{$post->url2}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    
+                                </td>
                             </tr>
                             <tr>
                                 <td width="10%">URL3</td>
-                                <td width="20%">{{$post->url3}}</td>
+                                <td width="20%">
+                                <iframe width="560" height="315" src="{{$post->url3}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
                             </tr>
                             <tr>
                                 <td width="10%">URL4</td>
-                                <td width="20%">{{$post->url4}}</td>
+                                <td width="20%">
+                                <iframe width="560" height="315" src="{{$post->url4}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>    
+                                </td>
                             </tr>
                             <tr>
                                 <td width="10%">URL5</td>
-                                <td width="20%">{{$post->url5}}</td>
+                                <td width="20%">
+                                    <iframe width="560" height="315" src="{{$post->url4}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
